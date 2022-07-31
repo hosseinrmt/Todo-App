@@ -1,0 +1,36 @@
+.TodoForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.TodoForm input {
+    width: 70%;
+    height: 100%;
+    border: none;
+    padding: 0 5px;
+    font-size: 1.2rem;
+}
+
+.TodoForm input:focus {
+    outline: none;
+}
+
+.TodoForm button {
+    font-size: 1.2rem;
+    width: 30%;
+    height: 100%;
+    border: none;
+    background-color: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+.TodoForm button:hover {
+    background-color: #aaa;
+}
