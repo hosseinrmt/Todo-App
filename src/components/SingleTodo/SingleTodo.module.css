@@ -1,0 +1,61 @@
+.Todo {
+    display: flex;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e4e4e4;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.editBtn,
+.deleteBtn,
+.checkBtn {
+    background-color: #fff;
+    border: none;
+    margin-left: 1rem;
+    width: 3rem;
+    font-size: 15px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    background-color: #f9fafb;
+}
+
+.deleteBtn {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.checkBtn {
+    background-color: #00ff00;
+    color: #111;
+}
+
+.deleteBtn:hover {
+    background-color: #DC2626;
+    color: #fff;
+}
+
+.completed {
+    display: flex;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e4e4e4;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #A1A1AA;
+    text-decoration: line-through;
+}

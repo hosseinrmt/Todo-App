@@ -10,10 +10,21 @@ const TodoApp = () => {
     setTodos([...todos, newTodo]);
   };
 
+  const checkHandler = (id) => {
+    const newTodos = [...todos];
+    const index = newTodos.findIndex((todo) => todo.id === id);
+    const newTodo = { ...newTodos[index] };
+    newTodo.isCompleted = !newTodo.isCompleted;
+    newTodos[index] = newTodo;
+    setTodos(newTodos);
+  };
+
   return (
     <div className="container">
       <TodoForm addTodoHandler={addTodoHandler} />
-      <TodoList />
+      {todos.length > 0 && (
+        <TodoList todos={todos} checkHandler={checkHandler} />
+      )}
     </div>
   );
 };
