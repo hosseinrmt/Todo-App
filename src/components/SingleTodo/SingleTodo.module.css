@@ -44,6 +44,14 @@
     color: #fff;
 }
 
+.isEditing {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 17px;
+    font-weight: 600;
+}
+
 .completed {
     display: flex;
     padding: 1rem;
