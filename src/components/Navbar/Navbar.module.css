@@ -1,0 +1,24 @@
+.Navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CBD5E1;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    top: 0;
+}
+
+span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2F4F4F;
+}
+
+@media (min-width: 768px) {
+    span {
+        font-size: 2rem;
+    }
+}
